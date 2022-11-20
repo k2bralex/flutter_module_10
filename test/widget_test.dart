@@ -50,20 +50,3 @@ void main() {
     });
   });
 }
-
-/*
-void main() {
-  testWidgets("Login view tests", (tester) async {
-    Widget loginForm = LoginForm();
-    await tester.pumpWidget(loginForm);
-
-*/
-/*    final loginForm = find.descendant(
-        of: find.byWidget(loginView), matching: find.byKey(Key("findEmail")));*//*
-
-
-    await tester.enterText(find.byKey(Key("findEmail")), 'test@test.net');
-    expect('test@test.net', findsOneWidget);
-  });
-}
-*/
